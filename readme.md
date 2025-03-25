@@ -63,7 +63,7 @@ models = {
 
 2. There are routes already for a few sounds (a, ada, dha) copy one for those, past at the bottom and edit that to to use new model
 
-# Route for model 'a'
+
 @audio_anomaly_model_bp.route('/predict/a', methods=['POST'])                   ===== Add the new route
 def predict_a():
     try:
