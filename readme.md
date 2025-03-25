@@ -19,6 +19,18 @@ python3 app.py
 
 ## Where to put model files (.h5, .keras, .dat)
 
+Models can be found here
+https://drive.google.com/drive/folders/1wVJr00uTaoVDoSGd7U5HMV2WTiorfiLE?usp=sharing
+
+
+for 2025/03/26 this contains
+- Attention recognition model
+- Activity recommendation model
+- Dotted/Normal letter model
+- Dotted/Normal shape model
+- word model
+- audio models (ada, a, dha)
+
 #### Audio related model (a.h5, ada.h5....)  
 /models/audio/
 
