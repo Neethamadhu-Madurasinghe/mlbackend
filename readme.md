@@ -60,7 +60,7 @@ model_path = os.path.join(os.path.dirname(__file__), 'word_model.keras')
 
 ## How to add more audio models (new words ...)
 
-audio_predictor.py contains all the routes for audio related models
+`audio_predictor.py` contains all the routes for audio related models
 
 1. Add the new model to this code at the top
 ```
@@ -117,3 +117,8 @@ def predict_a():
     except Exception as e:
         return jsonify({'error': f'Prediction failed: {str(e)}'}), 500
 ```
+
+
+### Other important points
+- Audio length should not exceed 5 seconds 
+- Always send images with properties similar to training data to API (aspect ratio, colors ... ). Models are not generalized enough yet. 
